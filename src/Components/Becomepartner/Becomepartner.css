@@ -1,0 +1,38 @@
+.connect-bg{
+    background-image: url(/public/Images/connect.png);
+    height: 400px;
+    background-color: black;
+    padding-top: 50px;
+}
+.connect-h1{
+    font-size: 80px;
+}
+.connect-text{
+    color: rgb(176 211 87);
+}
+.p-connect{
+    color: #fff9;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    text-align: center;
+}
+.btn-connect{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(176 211 87);
+}
+.btc-img1{
+    margin-left: 400px;
+    height: 1.5rem;
+    width: 1.5rem;
+    
+}
+.btc-img2{
+    margin-left: 400px;
+    height: 1.5rem;
+    width: 1.5rem;
+    
+}

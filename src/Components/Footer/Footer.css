@@ -1,0 +1,18 @@
+.footer-logo{
+    height: 12rem;
+    height: 130px;
+    
+}
+.clr-page{
+    margin-top: 50px;
+    color: rgb(176, 211, 87);
+   /* color: red; */
+     
+}
+.footer-end{
+    font-size: 13px;
+}
+.padding-footer{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}

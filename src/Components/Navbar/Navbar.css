@@ -1,0 +1,42 @@
+.logo{
+height: 100px;
+}
+.marginleft{
+    margin-left: 2%;
+}.custom-btn {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 5px 15px;
+    display: flex;
+    margin-left: 30px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  .custom-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1); 
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    color: white;
+  }
+  .custom-btn .svg-inline--fa {
+    margin-right: 5px; 
+  }
+  .navs{
+    font-size: 17px;
+    padding-left: 40px;
+  }
+  
+  @keyframes glowing {
+    0% {
+      box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+    }
+    50% {
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+    }
+    100% {
+      box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+    }
+  }
+  
+  
+  

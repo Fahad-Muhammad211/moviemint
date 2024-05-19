@@ -1,0 +1,88 @@
+.box {
+    height: 20px;
+    width: 20px;
+    background: rgb(255, 255, 255);
+  }
+  
+  @media (min-width: 640px) {
+    .box {
+      height: 25px;
+      width: 25px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .box {
+      height: 14px;
+      width: 15px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .box {
+      height: 10px;
+      width: 12px;
+    }
+  }
+  .h6-nft{
+    color: rgb(176 211 87 );
+    font-weight: bold;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    text-align: center;
+    margin-top: 50px;
+}
+  .h6-us{
+    background-color: white;
+    color: black;
+  }
+  .btn-us{
+    background-color: white;
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    color: black;
+    font-size: .875rem;
+    border-radius: 5px;
+    justify-content: center;
+
+  }
+  .borde{
+  /* border-style: dotted 20px solid red; */
+  border-top: 15px dotted rgb(176 211 87 ) ;
+  width: 409px;
+  height: 409px;
+  border-radius: 30px;
+  }
+  .dots{
+    width:10px;
+    height:10px;
+    background-color: #f3c4f8;
+    position: relative;
+  }
+  .dots::before {
+    content: "";
+    width:10px;
+    height:10px;
+    background-color: #ab43ba;
+    position: absolute;
+    left:10px;
+  }
+  .btn-explore{ 
+    margin-top: 20px;
+    background-color: rgb(176 211 87 );
+    border-radius: 15px;
+    border: none;
+    padding: 5px;
+    font-weight: 700;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    padding-bottom: .75rem;
+    padding-top: .75rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+  .btn-explore:hover{
+    color: rgb(176 211 87 );
+    background-color: white;
+  }

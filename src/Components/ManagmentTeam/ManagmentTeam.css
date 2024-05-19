@@ -1,0 +1,59 @@
+
+
+.bg-clr {
+    background-color: black;
+ 
+}
+
+.about-card {
+    /* border: 1px solid #ddd; */
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+    width: 160px;
+    height: 500px;
+   margin-top: 25px;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+    color: white;
+    
+ border-bottom: 1px solid rgb(176 211 87);
+ 
+}
+
+.card-subtitle {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #6c757d;
+}
+
+.card-text {
+    font-size: 13px;
+    
+}
+
+.p2-about {
+    font-size: 18px;
+    color: white;
+    margin-top: 30px;
+}
+.designation{
+    color: rgb(176 211 87);
+}

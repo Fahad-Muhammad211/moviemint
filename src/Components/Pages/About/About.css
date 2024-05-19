@@ -1,0 +1,28 @@
+.bg-img{
+    background-image: url(/public/Images/HeroSection.png);
+    height: 560px;
+}
+.h1-about{
+    margin-top: 120px;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+.h2-about{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(176 211 87);
+}
+.h3-about{
+    color: white;
+color: white;
+font-size: 15px;
+font-weight: 600;
+}
+.p-about{
+    margin-top: 40px;
+    color: white;
+    font-size: 15px;
+    font-weight:500 ;
+}

@@ -1,0 +1,88 @@
+#sectionMainBody {
+  background-image: url('/public/Images/HeroSection.png'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: auto; 
+  color: white; 
+}
+.mrg-top{
+  margin-top: 100px;
+}
+.hero-content {
+    margin-top: 200px;
+  max-width: 600px;
+}
+
+
+.custom-btn {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  .custom-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1); 
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+  }
+  
+  .custom-btn .svg-inline--fa {
+    margin-right: 5px; 
+  }
+  
+  @keyframes glowing {
+    0% {
+      box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+    }
+    50% {
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+    }
+    100% {
+      box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+    }
+  }
+  
+  .custom-btn:focus {
+    animation: glowing 1.5s infinite;
+  }
+  .text-movie-green{
+    color: rgb(176 211 87);
+}
+  
+.lst-btn{
+    border: 2px solid rgb(176 211 87);
+    border-radius: 20px;
+    color: white;
+    background: rgba(0,0,0,0.5);
+    padding: 6px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+}
+.lst-btn:hover{
+    color: rgb(176 211 87);
+    border: 2px solid white;
+}
+    
+.line-div{
+    width: 120px;
+    border-bottom: 2px solid rgb(176 211 87);
+    margin-top: 40px;
+    /* margin-left: 114px; */
+}
+.margin-p{
+  margin-top: 190px;
+ 
+}
+.btn-span{
+  color: rgb(176 211 87);
+}
